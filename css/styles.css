@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eee;
+  color: #444444;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  background-color: #033048;
+  background-image: url("../images/banner.jpg");
+  width:100%;
+  height:130px;
+  background-size: cover;
+}
+
+.main{
+  width:75%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: block;
+
+
+  -webkit-box-shadow: 0px 1px 10px 1px rgba(122,122,122,0.65);
+  -moz-box-shadow: 0px 1px 10px 1px rgba(122,122,122,0.65);
+  box-shadow: 0px 1px 10px 1px rgba(122,122,122,0.65);
+}
+
+nav{
+  width:100%;
+  margin-top: -4px;
+  background-color: #8a8a5c; /*default color*/
+
+  background: -webkit-linear-gradient(bottom, #4d4d33 ,  #999966); 
+  background: -o-linear-gradient(top, #4d4d33,  #999966);
+  background: -moz-linear-gradient(top, #4d4d33,  #999966);
+  background: linear-gradient(to top, #4d4d33 ,  #999966); 
+}
+
+.content{
+  display: block;
+  padding: 20px 50px;
+}
+
+.container{
+  display: block;
+  margin:0 auto;
+  background-color: #fff;
+  width: 100%;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+    border: solid 1px #3b3b2b;
+    float: left;
+    width: 33.333%;
+}
+
+nav li a{
+    text-align:center;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+    padding: 14px 16px;
+}
+
+nav li a:hover, #active{
+  background-color: #4d4d33;
+
+}
+
+.numbers {
+  list-style-type: decimal;
+  line-height: 20px;
+  padding:5px;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 0 0 15px;
+  line-height: 20px;
+}
+
+ul.numbers > li{
+  margin-left: 5%;
+}
+
+
+.textBox{
+	background-color: rgba(16, 43, 69, 0.7);
+	height:150px;
+	position: relative;
+	bottom: 150px;
+	color: white;
+	z-index: 99;
+  display:none;
+}
+
+.textBox p{
+	padding: 20px 35px;
+	text-shadow: 2px 2px 2px #000;
+	width:810px;
+  float: left;
+}
+
+
+.bgImage img {
+	max-width:100%;
+  margin:0;
+  padding: 0;
+}
+
+#nextButton{
+	background:url(../images/arrow.png) no-repeat;
+	cursor:pointer;
+	border:none;
+	width:50px;
+	height:40px;
+	position: absolute;
+  right: 0px;
+	margin-top: 50px;
+}
+
+
+#start {
+  width: 206px;
+  display:block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background:none;
+}
+
+#start img{
+  width:100%;
+  height: auto;
+}
+
+.texts{
+	margin: 20px auto;
+	width: 860px;
+  display:none;
+}
+
+.choice{
+  width: 100%;
+  margin: 0px 10%;
+  display: block;
+  position: relative;
+  bottom: 300px;
+  clear: both;
+}
+
+.chcButton{
+  width:35%;
+  height: 50px;
+  background-color: rgba(16, 43, 69, 0.7);
+  text-shadow: 2px 2px 2px #000;
+  color: #fff;
+  float: left;
+}
+
+.chcButton:first-child{
+  margin-right: 10%;
+}
